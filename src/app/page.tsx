@@ -4,6 +4,7 @@ import Social from "@/components/Social";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
 import { motion } from "framer-motion";
+import Stats from "@/components/Stats";
 
 export default function Home() {
   return (
@@ -58,6 +59,7 @@ export default function Home() {
               }}
               transition={{
                 repeat: Infinity,
+                delay: 3,
                 duration: 1.5,
                 repeatType: "reverse",
               }}
@@ -66,6 +68,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Stats />
     </div>
   );
 }
