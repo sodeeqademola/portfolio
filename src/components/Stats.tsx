@@ -23,8 +23,8 @@ const stats = [
 
 const Stats = () => {
   return (
-    <div className="px-4 mx-auto">
-      <div>
+    <div className=" pb-12 md:pt-0 md:pb-0">
+      <div className="px-4 mx-auto">
         <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto md:max-w-none">
           {stats.map((item, index) => {
             return (
