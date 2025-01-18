@@ -32,7 +32,7 @@ const services = [
 
 const page = () => {
   return (
-    <div className="min-h-[80vh] flex flex-col justify-center py-12 md:py-0">
+    <div className="min-h-[80vh] flex flex-col justify-center py-12 md:py-0 mb-2">
       <div className="px-4 mx-auto">
         <motion.div
           initial={{ opacity: 0 }}
@@ -44,20 +44,30 @@ const page = () => {
         >
           {services.map((service, index) => {
             return (
-              <div key={index}>
-                <div>
-                  <div>{service.num}</div>
-                  <Link href={service.href}>
-                    <BsArrowDownRight />
+              <div
+                key={index}
+                className="flex-1 flex flex-col just gap-4 group"
+              >
+                <div className="w-full flex justify-between items-center">
+                  <div className="text-5xl font-extrabold group-hover:text-primary transition-all group-hover:primary duration-500  ">
+                    {service.num}
+                  </div>
+                  <Link
+                    className="w-[70px] h-[70px] rounded-full group-hover:bg-primary  text-primary bg-secondary-50 group-hover:text-secondary transition-all flex justify-center items-center duration-500 hover:-rotate-45"
+                    href={service.href}
+                  >
+                    <BsArrowDownRight className=" text-3xl  hover:text-secondary" />
                   </Link>
                 </div>
 
                 {/* title */}
-                <h2>{service.title}</h2>
+                <h2 className="text-[42px] font-bold leading-none group-hover:text-primary transition-all duration-500">
+                  {service.title}
+                </h2>
 
                 {/* description */}
                 {/* border */}
-                <div className="text-justify border-b-2 border-primary w-full h-52">
+                <div className="text-justify  font-medium opacity-80 border-b-2 border-primary/45 w-full pb-2">
                   {" "}
                   {service.description}
                 </div>

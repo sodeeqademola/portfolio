@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <div className="px-5 h-full mx-auto">
       <div className="h-full mx-auto">
-        <div className="flex flex-col md:flex-row items-center justify-between md:pt-8 md:pb-24">
+        <div className="flex flex-col md:flex-row items-center justify-between md:pt-8 md:pb-10">
           {/* text */}
           <div className="text-center md:text-left order-2 md:order-none">
             <span className="text-xl font-semibold">Software Developer</span>

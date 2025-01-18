@@ -245,6 +245,7 @@ body {
     @apply text-[20px] md:text-[24px] leading-[1.1] font-semibold;
   }
 }
+
 /* @layer base {
   * {
     @apply border-border;
