@@ -18,7 +18,7 @@ export default function Home() {
               Hello I'm <br />{" "}
               <span className="text-primary">Ademola Sodeeq</span>
             </h1>
-            <p className="max-w-[500px] font-semibold text-[16px] mb-9 text-opacity-85">
+            <p className="max-w-[500px] font-semibold text-[16px] mb-9 opacity-75">
               I excel at crafting elegant digital experiences and I am
               proficient in various programming languages and technologies.{" "}
             </p>

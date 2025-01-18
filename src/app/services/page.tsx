@@ -18,7 +18,7 @@ const services = [
     num: "02",
     title: "Mobile App Development",
     description:
-      "I am a mobile app developer which involves the process of creating software applications designed to run on mobile devices like smartphones and tablets.I code for different platforms, such as iOS and Android, using languages React Native, as a full stack developer handling both frot-end and back-end. The development process includes designing user interfaces, integrating features, testing, and ensuring performance and security. Mobile apps can be native (built specifically for one platform) or cross-platform (working on multiple platforms). The goal is to deliver a smooth, user-friendly experience that meets the needs of the target audience.",
+      "I am a mobile app developer which involves the process of creating software applications designed to run on mobile devices like smartphones and tablets.I code for different platforms, such as iOS and Android, using React Native, as a full stack developer handling both frot-end and back-end. The development process includes designing user interfaces, integrating features, testing, and ensuring performance and security. Mobile apps can be native (built specifically for one platform) or cross-platform (working on multiple platforms). The goal is to deliver a smooth, user-friendly experience that meets the needs of the target audience.",
     href: "",
   },
   {
