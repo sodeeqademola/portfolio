@@ -175,7 +175,7 @@ const page = () => {
               <WorkSliderButtons
                 containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] md:bottom-0 z-20 w-full justify-between md:w-max  md:justify-none rounded"
                 btnStyles={
-                  "bg-primary/90 text-secondary font-bold hover:bg-primary-hover text-[30px] w-[44px] h-[44px] flex justify-center items-center transition-all rounded"
+                  "bg-primary/90 text-secondary font-bold hover:bg-primary-hover hover:text-secondary/70 text-[30px] w-[44px] h-[44px] flex justify-center items-center transition-all rounded"
                 }
               />
             </Swiper>
