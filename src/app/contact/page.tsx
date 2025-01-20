@@ -49,7 +49,7 @@ const page = () => {
       >
         <div className="flex flex-col md:flex-row gap-[30px]">
           {/* form */}
-          <div className="md:h-[54%] order-2 md:order-none">
+          <div className="md:w-[54%] order-2 md:order-none">
             <form className="flex flex-col gap-6 p-10 bg-secondary rounded-xl">
               <h3 className="text-4xl text-primary font-semibold">
                 Let's work together
@@ -105,7 +105,25 @@ const page = () => {
             </form>
           </div>
           {/* info */}
-          <div className="flex-1 flex items-center md:justify-end order-1 md:order-none mb-8 md:mb-0"></div>
+          <div className=" md:w-[46%] md:items-start flex  p-4 items-center order-1 md:order-none mb-8 md:mb-0">
+            <ul className="flex flex-col gap-10 bg-secondary rounded-lg w-full p-4">
+              {info.map((item, index) => {
+                return (
+                  <li key={index}>
+                    <div className="flex flex-row justify-start items-center gap-5">
+                      <div className="text-[28px] text-primary">
+                        {item.icon}
+                      </div>
+                      <div className="opacity-80">
+                        <p className="font-bold"> {item.title}</p>
+                        <h3 className="text-xl">{item.description}</h3>
+                      </div>
+                    </div>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
         </div>
       </motion.div>
     </div>
