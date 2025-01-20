@@ -67,7 +67,7 @@ const page = () => {
 
                 {/* description */}
                 {/* border */}
-                <div className="text-justify  font-medium opacity-80 border-b-2 border-primary/45 w-full pb-2">
+                <div className="text-justify  font-medium opacity-85 border-b-2 border-primary/70 w-full pb-2">
                   {" "}
                   {service.description}
                 </div>

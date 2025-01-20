@@ -192,7 +192,7 @@ const page = () => {
             <TabsContent value="experience" className="w-full">
               <div className="flex flex-col gap-[30px] text-center md:text-left">
                 <h3 className="text-4xl font-bold">{experience.title}</h3>
-                <p className=" text-primary/65 font-medium text-medium mx-auto md:mx-0">
+                <p className=" text-primary/90 font-medium text-medium mx-auto md:mx-0">
                   {experience.description}
                 </p>
                 <ScrollArea className="h-[600px]">
@@ -227,7 +227,7 @@ const page = () => {
             <TabsContent value="education" className="w-full">
               <div className="flex flex-col gap-[30px] text-center md:text-left">
                 <h3 className="text-4xl font-bold">{education.title}</h3>
-                <p className=" text-primary/65 font-medium text-medium mx-auto md:mx-0">
+                <p className=" text-primary/90 font-medium text-medium mx-auto md:mx-0">
                   {education.description}
                 </p>
                 <ScrollArea className="h-[600px]">
@@ -263,7 +263,7 @@ const page = () => {
               <div className="flex flex-col gap-[30px]">
                 <div className="flex flex-col gap-[30px] text-center lg:text-left">
                   <h3 className="text-4xl font-bold">{skills.title}</h3>
-                  <p className=" text-primary/65 font-medium text-medium mx-auto md:mx-0">
+                  <p className="  text-primary/90 font-medium text-medium mx-auto md:mx-0 md:text-left">
                     {skills.description}
                   </p>
                 </div>
@@ -298,7 +298,7 @@ const page = () => {
             >
               <div className="flex flex-col gap-[30px]">
                 <h3 className="text-4xl font-bold ">{about.title}</h3>
-                <p className=" text-primary/65 font-medium text-medium mx-auto md:mx-0">
+                <p className=" text-primary/90 font-medium text-medium mx-auto md:mx-0">
                   {about.description}
                 </p>
                 <ul className="grid grid-cols-1 lg:grid-cols-2 mb-4 px-2 gap-y-4 mx-auto md:mx-0">
@@ -308,7 +308,7 @@ const page = () => {
                         className="flex items-center justify-center gap-4 md:justify-start lg:flex md:flex-col lg:justify-start  "
                         key={index}
                       >
-                        <span className="opacity-80 text-primary">
+                        <span className="font-medium text-primary/90">
                           {item.fieldName}
                         </span>
                         <span className="text-medium  font-medium">
